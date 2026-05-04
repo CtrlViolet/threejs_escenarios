@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #0d1b2a 0%, #07111f 45%, #02070f 100%);
+    color: #e5e9f0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    padding: 4rem 0 3rem;
+}
+
+.hero-title {
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    letter-spacing: -0.04em;
+}
+
+.hero-text {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #cbd5e1;
+}
+
+.card-custom {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(9, 30, 60, 0.9);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.35);
+}
+
+.btn-primary {
+    background: #3b82f6;
+    border-color: #3b82f6;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #60a5fa;
+    border-color: #60a5fa;
+}
+
+.navbar-custom {
+    background: rgba(8, 18, 35, 0.92);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
+}
+
+.nav-user {
+    font-size: 0.95rem;
+    color: #cbd5e1;
+}
+
+.footer-bar {
+    background: rgba(9, 17, 34, 0.95);
+    color: #a8b8d3;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-title {
+    display: block;
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.footer-subtitle {
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+.footer-link {
+    color: #7dd3fc;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #38bdf8;
+}
+
+.footer-separator {
+    margin: 0 0.65rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer {
+    padding: 2rem 0;
+    color: #94a3b8;
+}
+
+.badge-example {
+    background: rgba(255, 255, 255, 0.08);
+    color: #f8fafc;
+}
